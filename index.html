@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nilara | E-commerce Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/main-logo.png" alt="" / width="125px">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contacts</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html">
+
+                    <img src="images/cart.png" alt="" width="30px" height="30px" />
+                </a>
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Change your lens, <br />Change your Story.</h1>
+                    <p>
+                        When words becomes unclear, I shall focus with photographs.<br />When
+                        Images becomes inadequate, I shall be content with silence.
+                    </p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/main.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category1.png" alt="" />
+                </div>
+                <div class="col-3">
+                    <img src="images/category2.png" alt="" />
+                </div>
+                <div class="col-3">
+                    <img src="images/category3.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html">
+
+                    <img src="images/pro1-nike-3695.png" alt="" />
+                </a>
+                <a href="product-details.html">
+
+                    <h4>Cavaliers SweatShirt by Nike</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.3695</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro2-Polo Ralph Lauren-12990.png" alt="" />
+                <h4>Polo Ralph Lauren</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.12990</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro3-allen solly - 2369.png" alt="" />
+                <h4>Allen Solly Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.2369</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro4-h&m-1499.png" alt="" />
+                <h4>H&M SweatShirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.1499</p>
+            </div>
+        </div>
+
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/pro5-calvinK-4199.png" alt="" />
+                <h4>Calvin Klein Sweater</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.4199</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro6-SELECTED-11499.png" alt="" />
+                <h4>SELECTED Blazer</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.11499</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro7-anubhutte-988.png" alt="" />
+                <h4>Anubhutte Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.988</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro8-biba-3039.png" alt="" />
+                <h4>Biba Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.3039</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/pro9-dorothy perkins-1245.png" alt="" />
+                <h4>Dorothy Perkins Skirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.1245</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro10-bobbi brown-5600.png" alt="" />
+                <h4>Bobbi Brown Cream</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.5600</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro11-AccessHer-39500.png" alt="" />
+                <h4>Access Her necklace</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.39500</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro12-fossil-14296.png" alt="" />
+                <h4>Fossil Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.14296</p>
+            </div>
+        </div>
+    </div>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/offer/shopping.png" alt="" class="offer-img" />
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on NILARA</p>
+                    <h1>Apple watch series 5</h1>
+                    <small>
+                        With a new Always-On Retina display, Apple Watch Series 5 is
+                        always there for you. To monitor your health, help you stay fit
+                        and keep you connected.
+                    </small>
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                        temporibus non sapiente nemo autem illo! Ea sunt corporis officia
+                        inventore.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-1.jpg" alt="">
+                    <h3>Nilay Hirpara</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                        temporibus non sapiente nemo autem illo! Ea sunt corporis officia
+                        inventore.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-2.jpg" alt="">
+                    <h3>Pranav Badgal</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                        temporibus non sapiente nemo autem illo! Ea sunt corporis officia
+                        inventore.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-3.jpg" alt="">
+                    <h3>Navnit Kumar</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-1.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-2.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-3.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-4.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/main-logo.png" alt="">
+                    <p>Our purpose is to give the best quality product to the customer and bring them back and make them
+                        happy.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2020 - www.nilara.com</p>
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>

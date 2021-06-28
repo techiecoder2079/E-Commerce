@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nilara | E-commerce Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                    <img src="images/main-logo.png" alt="" / width="125px">
+                </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contacts</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html">
+
+                    <img src="images/cart.png" alt="" width="30px" height="30px" />
+                </a>
+                <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+   
+
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Price Low to High</option>
+                <option>Price High to Low</option>
+                <option>By Popularity</option>
+                <option>By Rating</option>
+                <option>By Sale</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/pro1-nike-3695.png" alt="" />
+                <h4>Cavaliers SweatShirt by Nike</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.3695</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro2-Polo Ralph Lauren-12990.png" alt="" />
+                <h4>Polo Ralph Lauren</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.12990</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro3-allen solly - 2369.png" alt="" />
+                <h4>Allen Solly Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.2369</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro4-h&m-1499.png" alt="" />
+                <h4>H&M SweatShirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.1499</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/pro5-calvinK-4199.png" alt="" />
+                <h4>Calvin Klein Sweater</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.4199</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro6-SELECTED-11499.png" alt="" />
+                <h4>SELECTED Blazer</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.11499</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro7-anubhutte-988.png" alt="" />
+                <h4>Anubhutte Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.988</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro8-biba-3039.png" alt="" />
+                <h4>Biba Dress</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.3039</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/pro9-dorothy perkins-1245.png" alt="" />
+                <h4>Dorothy Perkins Skirts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.1245</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro10-bobbi brown-5600.png" alt="" />
+                <h4>Bobbi Brown Cream</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.5600</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro11-AccessHer-39500.png" alt="" />
+                <h4>Access Her Necklace</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.39500</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro12-fossil-14296.png" alt="" />
+                <h4>Fossil Smart Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.14296</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/pro13-lacoste-2550.png" alt="" />
+                <h4>Lacoste kids T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.2550</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro14-The Light Lamp-21360.png" alt="" />
+                <h4>The Light Lamp</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.21360</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro15-harmon kardon-14990.png" alt="" />
+                <h4>Harmon Kardon Headphones</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.149900</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pro16-steve madden - 8999.png" alt="" />
+                <h4>Steve Madden Heels</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.8999</p>
+            </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/main-logo.png" alt="">
+                    <p>Our purpose is to give the best quality product to the customer and bring them back and make them
+                        happy.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2020 - www.nilara.com</p>
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
